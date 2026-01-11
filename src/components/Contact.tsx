@@ -35,7 +35,7 @@ Plano de Interesse: ${formData.plan || "Não especificado"}
 Mensagem: ${formData.message}
     `;
     window.open(
-      `https://wa.me/5585992868076?text=${encodeURIComponent(message)}`,
+      `https://wa.me/5585982184028?text=${encodeURIComponent(message)}`,
       "_blank"
     );
   };

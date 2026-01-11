@@ -118,7 +118,7 @@ const Plans = () => {
     const plan = plans.find(p => p.id === planId);
     if (plan) {
       const message = `Olá! Tenho interesse no ${plan.name} de ${plan.speed} por R$ ${plan.price.toFixed(2).replace('.', ',')}/mês. Gostaria de mais informações!`;
-      window.open(`https://wa.me/5585992036712?text=${encodeURIComponent(message)}`, '_blank');
+      window.open(`https://wa.me/5585982184028?text=${encodeURIComponent(message)}`, '_blank');
     }
   };
 
